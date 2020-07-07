@@ -1,0 +1,11 @@
+list(include('table'),)
+---
+table:
+  database: str()
+  table: str()
+  column: str()
+  type: enum('timestamp','datetime')
+  start_time: any(day(), timestamp())
+  count: int(min=1,max=30)
+  interval: enum('W', 'MS', 'M', 'SMS', 'QS', 'D', 'Y')
+...
