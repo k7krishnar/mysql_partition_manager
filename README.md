@@ -2,8 +2,8 @@
 
 Scope:
 
-1. generate partitions ie, non-partitioned to a partitioned table
-2. manage partitions ie, adding new/removing old partitions
+1. generate partitions ie, non-partitioned to a partitioned table - wip
+2. manage partitions ie, adding new/removing old partitions - todo
 ```
 Sample output:
 krishna.r@sonata % python3 make_partition.py
