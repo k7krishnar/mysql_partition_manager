@@ -1,0 +1,17 @@
+---
+- database: classic
+  table: furelise
+  column: created_at
+  type: timestamp
+  start_time: 2020-07-01
+  count: 7
+  interval: 'MS'
+
+- database: modern
+  table: yaani
+  column: created_on
+  type: datetime
+  start_time: 2020-07-01 12:00:00
+  count: 7
+  interval: 'D'
+...
