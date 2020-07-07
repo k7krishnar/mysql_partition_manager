@@ -4,7 +4,7 @@ Scope:
 
 1. generate partitions ie, non-partitioned to a partitioned table
 2. manage partitions ie, adding new/removing old partitions
-
+```
 Sample output:
 krishna.r@sonata % python3 make_partition.py
 Validation success! 👍
@@ -29,4 +29,4 @@ PARTITION upto_2020_07_04 VALUES LESS THAN (TO_SECONDS('2020-07-04 12:00:00')),
 PARTITION upto_2020_07_05 VALUES LESS THAN (TO_SECONDS('2020-07-05 12:00:00')),
 PARTITION upto_2020_07_06 VALUES LESS THAN (TO_SECONDS('2020-07-06 12:00:00')),
 PARTITION upto_2020_07_07 VALUES LESS THAN (TO_SECONDS('2020-07-07 12:00:00')),
-PARTITION pmax VALUES LESS THAN MAXVALUE )
+PARTITION pmax VALUES LESS THAN MAXVALUE )```
